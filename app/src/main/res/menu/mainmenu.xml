@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:id="@+id/home"
+        android:icon="@mipmap/home"
+        />
+    <item
+        android:title="My Events"
+        app:showAsAction="never"
+        android:id="@+id/myevent"
+        />
+    <item
+        android:title="Add Event"
+        app:showAsAction="never"
+        android:id="@+id/add"
+        />
+
+    <item
+        android:title="View profile"
+        app:showAsAction="ifRoom"
+        android:id="@+id/profile"
+        android:icon="@mipmap/profile"
+        />
+    <item
+        android:title="Logout"
+        app:showAsAction="never"
+        android:id="@+id/logout"
+        />
+
+
+
+</menu>

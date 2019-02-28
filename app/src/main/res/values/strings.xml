@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="title_activity_dashboard">All Events</string>
+    <string name="title_activity_addevent">Add Event</string>
+    <string name="title_activity_updateevent">Update Event</string>
+    <string name="title_activity_myevents">Myevents</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>

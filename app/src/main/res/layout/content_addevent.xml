@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddeventActivity"
+    tools:showIn="@layout/activity_addevent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/title"
+        android:hint="Event Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/date"
+        android:hint="Date"
+        android:inputType="date"
+        android:layout_below="@+id/title"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/location"
+        android:hint="Location"
+        android:layout_below="@+id/date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/description"
+        android:hint="Description of event"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/location"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="Save"
+        android:id="@+id/save"
+        android:onClick="save"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        />
+
+
+</RelativeLayout>
